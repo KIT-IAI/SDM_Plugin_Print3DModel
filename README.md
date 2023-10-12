@@ -26,10 +26,16 @@ The user interface was made with the aid of [wxFormBuilder](https://github.com/w
    <br />Selected elements can be filtered throught the IFC standard properties "isExternal" and/or "LoadBearing".
 
 ### Details
-Select level of detail for windows and doors.
 <p align="center">
 <img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/63da2e92-89d6-46a0-bb24-a5b580b22b8c">
 </p>
+
+Select level of detail for windows and doors.
+  
+|"Detailed"          |"Simplified"          |
+|:---          |:---          |
+|![image](https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/1cc68f91-5ab9-4161-b3a9-d9ac4f5ddfce)| ![image](https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/f1f62651-66cb-4069-9223-f13d29dfd7ea)|
+
 
 ### Visualization
 <p align="center">
@@ -74,10 +80,16 @@ Select level of detail for windows and doors.
 |Min. Thickness            |nozzle size of the printer in milimeter. |float  |
 
 ### Model Checking
-Run a model validation for the scaled model with the printer's parameters. Analyse resulting height, legth, thickness and solidity of each element.
-<p align="center">
-<img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/e5163f01-ced0-4160-82e9-36289e9df81a">
-</p>
+   <p align="center">
+   <img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/e5163f01-ced0-4160-82e9-36289e9df81a">
+   </p>
+   
+Run a model validation for the scaled model with the printer's parameters. Analyse resulting height, legth, thickness and solidity of each element. The printable (${\color{green}in}$ ${\color{green}green}$) and problematic (${\color{red}in}$ ${\color{red}red}$) elements are displayed as well as a printing plate based on the printer settings (${\color{magenta}in}$ ${\color{magenta}pink}$).
+
+   <p align="center">
+      <img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/24968a9b-1b16-41f4-923c-3abec68dc775">
+      <img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/f166cddf-a432-4901-bc7a-7b1f2be31da1">
+   </p>
 
 ### Export
 <p align="center">
