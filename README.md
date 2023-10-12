@@ -5,42 +5,66 @@ The Print3DModel module allows the user to make changes to the IFC file and prep
 The user interface was made with the aid of [wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder).
 
 ### IFC Elements
+
+<p align="center">
+<img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/24bab9a9-5b8a-44d5-8d27-c0cb9c231e38">
+</p>
+
 * Model Type
    <br />Pre-defined filter for model element's type based on target use case. Initialized with "Default". Model types can be edited and current choices will be saved for future use.
+  <p align="center">
+  <img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/d2591a84-b35b-4e6f-864e-7622ad5924c1">
+</p>
 
 * Filter elements
    <br />Select and deselect target enitites for current work.
+  <p align="center">
+  <img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/070ffc2d-3400-49e8-985b-45967571c02c">
+</p>
 
 * Property
    <br />Selected elements can be filtered throught the IFC standard properties "isExternal" and/or "LoadBearing".
 
 ### Details
 Select level of detail for windows and doors.
+<p align="center">
+<img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/63da2e92-89d6-46a0-bb24-a5b580b22b8c">
+</p>
 
 ### Visualization
+<p align="center">
+<img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/c566ce7a-bcc2-4af6-91b5-7c5d2bafd5ac">
+</p>
+
 #### Elements
 
 |Radio button          |Description          |
 |:---          |:---          |
-|Chosen            |Show the current selected elements.          |
-|Inverted          |Show the elements that have not been selected.          |
-|All          |Show all the model's entities.          |
+|<img width="200" height="150" src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/02120ec4-834a-4594-8f86-d4d3e788e7af"> <br /> "Chosen"  |Show the current selected elements.          |
+|<img width="200" height="150" src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/9ea34eb1-0dc3-4ab2-943f-1c88b56abb31"> <br />"Inverted" |Show the elements that have not been selected.          |
+|<img width="200" height="150" src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/658d6165-6af2-4673-9701-fc89bd967307"> <br />"All"      |Show all the model's entities.          |
 
 #### Colors
 
 |Radio button          |Description |
 |:---          |:--- |
-|Color by Default            |Show the model with default colors defined by entity's type. |
-|Color by Entity          |Show the model with colors attributed to entity. |
-|Unicolor          |Show model with selected color. |
+|<img width="200" height="150" src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/a12bf890-fdad-4ca0-9d0f-c7a5456d6571"> <br /> "Color by Default"  |Show the model with default colors defined by entity's type. |
+|<img width="200" height="150" src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/61f74a63-e7d6-4940-8c3c-055e88dbbd1f"> <br /> "Color by Entity"   |Show the model with colors attributed to entity. |
+|<img width="200" height="150" src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/27766fc9-26f7-44ee-bc50-cf5541fe134a"> <br /> "Unicolor"          |Show model with selected color. |
 
 ### Printing Preparation
+<p align="center">
+<img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/100bef86-4f93-4fe2-9c49-4b1fdd5a3c14">
+</p>
+
 * Scale
    <br /> Select scale that the model will be scaled down in the viewer.
 
 * Printer
- <br /> Select printer with its capacity. The printer settings will be used for the model validation.
-
+ <br /> Select printer with its capacity. The printer settings can be edited and will be used for the model validation.
+<p align="center">
+<img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/0f2a08b4-6085-4602-a652-b37335a30171">
+</p>
 
 |Attribute          |Description |Type  |
 |:---          |:--- |:---          |
@@ -51,8 +75,15 @@ Select level of detail for windows and doors.
 
 ### Model Checking
 Run a model validation for the scaled model with the printer's parameters. Analyse resulting height, legth, thickness and solidity of each element.
+<p align="center">
+<img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/e5163f01-ced0-4160-82e9-36289e9df81a">
+</p>
 
 ### Export
+<p align="center">
+<img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/56ae0130-cde3-4e77-a5b8-1bc3a0503ffb">
+</p>
+
 * Problematic Elements
 
 |Choice          |Description |
@@ -63,6 +94,9 @@ Run a model validation for the scaled model with the printer's parameters. Analy
 
 * Save Building storey separately
  <br />  Separate the IFC file per storey and introduce automatically auxiliary geometry to facilitate post-printing assembly.
+<p align="center">
+  <img width="400" height="300" src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/f55ff1f6-3631-4b98-8dd3-25c1d1d7fa37">
+</p>
 
 * Save
  <br />  Convert resulting IFC file into a preferred 3D printable file format (ASCII or binary *.stl, *.3mg, *.obj).
