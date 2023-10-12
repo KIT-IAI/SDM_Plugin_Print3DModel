@@ -84,7 +84,7 @@ Select level of detail for windows and doors.
    <img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/e5163f01-ced0-4160-82e9-36289e9df81a">
    </p>
    
-Run a model validation for the scaled model with the printer's parameters. Analyse resulting height, legth, thickness and solidity of each element. The printable (${\color{green}in}$ ${\color{green}green}$) and problematic (${\color{red}in}$ ${\color{red}red}$) elements are displayed as well as a printing plate based on the printer settings (${\color{magenta}in}$ ${\color{magenta}pink}$).
+Run a model validation for the scaled model with the printer's parameters. Analyse resulting height, legth, thickness and solidity of each element. The printable (${\color{green}in}$ ${\color{green}green}$) and problematic (${\color{red}in}$ ${\color{red}red}$) elements are displayed as well as a printing plate (${\color{magenta}in}$ ${\color{magenta}magenta}$) based on the printer settings.
 
    <p align="center">
       <img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/24968a9b-1b16-41f4-923c-3abec68dc775">
@@ -112,7 +112,8 @@ Run a model validation for the scaled model with the printer's parameters. Analy
 
 * Save
  <br />  Convert resulting IFC file into a preferred 3D printable file format (ASCII or binary *.stl, *.3mg, *.obj).
-  
+
+For more details: [3D Printing of BIM Model - Thesis](https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/blob/main/3DPofBIMModel_BA.pdf).
 ## Document
 
 ### Print3DModel: Methods
