@@ -47,7 +47,7 @@ Select level of detail for windows and doors.
 |Name            |Name of the printer. |string  |
 |Max. Length            |max. length of the printer's printing plate in centimeter. |integer  |
 |Max. Height            |max. height of the printer's printing plate in centimeter. |integer  |
-|Min. Thickness            |nozzle size of the printer in milimeter. |integer  |
+|Min. Thickness            |nozzle size of the printer in milimeter. |float  |
 
 ### Model Checking
 Run a model validation for the scaled model with the printer's parameters. Analyse resulting height, legth, thickness and solidity of each element.
