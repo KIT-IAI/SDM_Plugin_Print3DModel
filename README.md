@@ -2,7 +2,7 @@
 The Print3DModel module allows the user to make changes to the IFC file and prepare it for small scale 3D printing. Through this plugin it is possible to filter elements and standard properties from the IFC and perform a model validation based on the selected scale and available printer capacity. The printable (${\color{green}in}$ ${\color{green}green}$) and problematic (${\color{red}in}$ ${\color{red}red}$) elements are identified for a preview of the final results of the printed model.
 
 ## User Interface Features
-The user interface was made with the aid of [wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder).
+The user interface is based on [wxWidgets](https://www.wxwidgets.org/) and was made with the aid of [wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder).
 
 ### IFC Elements
 
