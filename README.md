@@ -72,12 +72,15 @@ Select level of detail for windows and doors.
 <img src="https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/0f2a08b4-6085-4602-a652-b37335a30171">
 </p>
 
-|Attribute          |Description |Type  |
-|:---          |:--- |:---          |
-|Name            |Name of the printer. |string  |
-|Max. Length            |max. length of the printer's printing plate in centimeter. |integer  |
-|Max. Height            |max. height of the printer's printing plate in centimeter. |integer  |
-|Min. Thickness            |nozzle size of the printer in milimeter. |float  |
+
+* Name
+<br/>Name of the printer.
+* Max. Length
+<br/>Maximum length of the printer's printing plate in centimeter.
+* Max. Height
+<br/>Maximum height of the printer's assembly space in centimeter.
+* Min. Thickness
+<br/>Nozzle size of the printer in milimeter.
 
 ### Model Checking
    <p align="center">
