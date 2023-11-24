@@ -75,10 +75,13 @@ Select level of detail for windows and doors.
 
 * Name
 <br/>Name of the printer.
+
 * Max. Length
 <br/>Maximum length of the printer's printing plate in centimeter.
+
 * Max. Height
 <br/>Maximum height of the printer's assembly space in centimeter.
+
 * Min. Thickness
 <br/>Nozzle size of the printer in milimeter.
 
