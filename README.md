@@ -1,7 +1,7 @@
 # Print3DModel
 The Print3DModel module allows the user to make changes to the IFC file and prepare it for small scale 3D printing. Through this plugin it is possible to filter elements and standard properties from the IFC and perform a model validation based on the selected scale and available printer capacity. The printable (${\color{green}in}$ ${\color{green}green}$) and problematic (${\color{red}in}$ ${\color{red}red}$) elements are identified for a preview of the final results of the printed model.
 
-## User Interface Features
+## User Interface
 The user interface is based on [wxWidgets](https://www.wxwidgets.org/) and was made with [wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder).
 
 ### IFC Elements
@@ -167,3 +167,11 @@ For more details: [3D Printing of BIM Model - Thesis](https://github.com/KIT-IAI
 |Name            |Name of model type |string  |
 |Entity Type List            |List of the names of the entity types for the current model type ("IfcWall", "IfcWindow", etc.) |string  |
 
+## Dependencies
+
+### Use of vcpkg:
+
+|Package Name         |Install Command                            |
+|:---                 |:---                                       |
+|opencv2              |vcpkg install opencv2 triplet=x64-windows  |
+|wxwidgets            |vcpkg install wxwidgets triplet=x64-windows|
