@@ -173,5 +173,4 @@ For more details: [3D Printing of BIM Model - Thesis](https://github.com/KIT-IAI
 
 |Package Name         |Install Command                            |
 |:---                 |:---                                       |
-|opencv2              |vcpkg install opencv2 triplet=x64-windows  |
 |wxwidgets            |vcpkg install wxwidgets triplet=x64-windows|
