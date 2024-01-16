@@ -36,7 +36,7 @@ Select level of detail for windows and doors.
   
 |"Detailed"          |"Simplified"          |
 |:---          |:---          |
-|![image](https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/1cc68f91-5ab9-4161-b3a9-d9ac4f5ddfce)| ![image](https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/f1f62651-66cb-4069-9223-f13d29dfd7ea)|
+|![image](https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/1cc68f91-5ab9-4161-b3a9-d9ac4f5ddfce)| ![image](https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/assets/74645544/ec04f298-7c27-43db-9b4e-1369533070ce)|
 
 
 ### Visualization
