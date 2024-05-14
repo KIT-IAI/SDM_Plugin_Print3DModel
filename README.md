@@ -3,7 +3,7 @@ The Print3DModel module allows the user to make changes to the IFC file and prep
 
 For more details: [3D Printing of BIM Model - Thesis](https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/blob/main/3DPofBIMModel.pdf).
 
-In procedings of 34. Forum Bauinformatik:
+In procedings of 34. Forum Bauinformatik:  
 [Conceptual planning and implementation of an automated workflow in scaled 3D printing with the aim of generating printable models from BIM data](https://doi.org/10.13154/294-10113)
 
 ## User Interface
