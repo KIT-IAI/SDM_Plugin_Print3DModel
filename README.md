@@ -176,7 +176,7 @@ Run a model validation for the scaled model with the printer's parameters. Analy
 |:---                 |:---                                       |
 |wxwidgets            |vcpkg install wxwidgets triplet=x64-windows|
 
-## How to cite:
+## How to cite
 ```bibtex
 @inproceedings{Lourenzi.2023,
    author       = {Shuchen Di, Fernanda Lourenzi, Andreas Geiger, Karl-Heinz Häfele, Svenja Lauble},
