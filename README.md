@@ -175,3 +175,23 @@ Run a model validation for the scaled model with the printer's parameters. Analy
 |Package Name         |Install Command                            |
 |:---                 |:---                                       |
 |wxwidgets            |vcpkg install wxwidgets triplet=x64-windows|
+
+## How to cite
+```bibtex
+@inproceedings{Lourenzi.2023,
+   author       = {Shuchen Di, Fernanda Lourenzi, Andreas Geiger, Karl-Heinz Häfele, Svenja Lauble},
+   title        = {Conceptual planning and implementation of an automated workflow in scaled 3D printing with the aim of generating printable models from BIM data},
+   pages        = {209-216},
+   publisher    = {{Ruhr University of Bochum}},
+   editor       = {Sigalov, K. and Hagedorn, P. and Schönfelder, P. and Faltin, B. and Zentgraf, S. and Block, M.},
+   booktitle    = {Proceedings of 34. Forum Bauinformatik},
+   year         = {2023}
+}
+
+@software{Print3DModel,
+   title        = {Print3DModel},
+   author       = {{Fernanda Lourenzi}},
+   url          = {https://github.com/KIT-IAI/SDM_Plugin_Print3DModel},
+   date         = {2023}
+}
+```
