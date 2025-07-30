@@ -1,5 +1,5 @@
 # Print3DModel
-The Print3DModel module is a plugin for the [KITModelViewer](https://github.com/KIT-IAI/SDM_Plugin_SDK) and allows the user to make changes to the IFC file and prepare it for small scale 3D printing. Through this plugin it is possible to filter elements and standard properties from the IFC and perform a model validation based on the selected scale and available printer capacity. The printable (${\color{green}in}$ ${\color{green}green}$) and problematic (${\color{red}in}$ ${\color{red}red}$) elements are identified for a preview of the final results of the printed model.
+The Print3DModel module is a plugin for the [KITModelViewer](https://github.com/KIT-IAI/SDM_KITModelViewer) and allows the user to make changes to the IFC file and prepare it for small scale 3D printing. Through this plugin it is possible to filter elements and standard properties from the IFC and perform a model validation based on the selected scale and available printer capacity. The printable (${\color{green}in}$ ${\color{green}green}$) and problematic (${\color{red}in}$ ${\color{red}red}$) elements are identified for a preview of the final results of the printed model.
 
 For more details: [3D Printing of BIM Model - Thesis](https://github.com/KIT-IAI/SDM_Plugin_Print3DModel/blob/main/3DPofBIMModel.pdf).
 
