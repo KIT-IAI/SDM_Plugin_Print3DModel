@@ -191,10 +191,10 @@ Run a model validation for the scaled model with the printer's parameters. Analy
    year         = {2023}
 }
 
-@software{Print3DModel,
-   title        = {Print3DModel},
-   author       = {{Fernanda Lourenzi}},
+@software{SDM_Plugin_Print3DModel,
+   title        = {{SDM\_Plugin\_Print3DModel}[,
+   author       = {Fernanda Lourenzi},
    url          = {https://github.com/KIT-IAI/SDM_Plugin_Print3DModel},
-   date         = {2023}
+   year         = {2023}
 }
 ```
