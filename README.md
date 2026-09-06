@@ -178,6 +178,8 @@ Run a model validation for the scaled model with the printer's parameters. Analy
 |Package Name         |Install Command                            |
 |:---                 |:---                                       |
 |wxwidgets            |vcpkg install wxwidgets triplet=x64-windows|
+|fmt                  |vcpkg install fmt triplet=x64-windows      |
+|geographiclib 	      |vcpkg install geographiclib triplet=x64-windows|
 
 ## How to cite
 ```bibtex
