@@ -183,6 +183,15 @@ Run a model validation for the scaled model with the printer's parameters. Analy
 
 ## How to cite
 ```bibtex
+@software{SDM_Plugin_Print3DModel,
+   title        = {{SDM\_Plugin\_Print3DModel}[,
+   author       = {Fernanda Lourenzi},
+   url          = {https://github.com/KIT-IAI/SDM_Plugin_Print3DModel},
+   year         = {2023}
+}
+```
+
+```bibtex
 @inproceedings{Lourenzi.2023,
    author       = {Shuchen Di, Fernanda Lourenzi, Andreas Geiger, Karl-Heinz Häfele, Svenja Lauble},
    title        = {Conceptual planning and implementation of an automated workflow in scaled 3D printing with the aim of generating printable models from BIM data},
@@ -190,15 +199,6 @@ Run a model validation for the scaled model with the printer's parameters. Analy
    publisher    = {{Ruhr University of Bochum}},
    editor       = {Sigalov, K. and Hagedorn, P. and Schönfelder, P. and Faltin, B. and Zentgraf, S. and Block, M.},
    booktitle    = {Proceedings of 34. Forum Bauinformatik},
-   year         = {2023}
-}
-```
-
-```bibtex
-@software{SDM_Plugin_Print3DModel,
-   title        = {{SDM\_Plugin\_Print3DModel}[,
-   author       = {Fernanda Lourenzi},
-   url          = {https://github.com/KIT-IAI/SDM_Plugin_Print3DModel},
    year         = {2023}
 }
 ```
