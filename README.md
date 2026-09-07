@@ -192,7 +192,9 @@ Run a model validation for the scaled model with the printer's parameters. Analy
    booktitle    = {Proceedings of 34. Forum Bauinformatik},
    year         = {2023}
 }
+```
 
+```bibtex
 @software{SDM_Plugin_Print3DModel,
    title        = {{SDM\_Plugin\_Print3DModel}[,
    author       = {Fernanda Lourenzi},
